@@ -1,0 +1,103 @@
+.fourth-block {
+  display: flex;
+  width: 100%;
+  height: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(88, 88, 88);
+  @media (max-width: 375px) {
+      display: flex;
+      width: 100%;
+      height: 2030px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color:rgb(88, 88, 88);
+  }
+}
+
+.fourth-block-columns {
+  display: flex;
+    width: 85.83%;
+    height: 608px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(223, 28, 142);
+    justify-content: space-between;
+    @media (max-width: 375px) {
+        display: flex;
+        width: 100%;
+        height: 1764px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(223, 28, 142);
+        flex-flow: row-reverse;
+        flex-direction: column;
+    }
+}
+
+.fourth-block-columns_one {
+  width: 31.72%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    background-color: #131313;
+    @media (max-width: 375px) {
+        width: 90.67%;
+        height: 75.63%;
+        display: flex;
+        align-self: center;
+        flex-flow: row-reverse;
+        background-color: #131313;
+        margin-top: 194.5px;
+    }
+}
+
+.fourth-block-columns_two {
+    width: 31.72%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    background-color: #131313;
+    @media (max-width: 375px) {
+        width: 90.67%;
+        height: 75.63%;
+        display: flex;
+        align-self: center;
+        flex-flow: row-reverse;
+        background-color: #131313;
+        margin-bottom: 15.76%;
+        margin-top: 15.76%;
+    }
+}
+
+.fourth-block-columns_three{
+  width: 31.72%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  background-color: #131313;
+  @media (max-width: 375px) {
+      width: 90.67%;
+      height: 75.63%;
+      display: flex;
+      align-self: center;
+      flex-flow: row-reverse;
+      background-color: #131313;
+  }
+}
+
+.fourth-block-image-two {
+  display: none;
+  @media (max-width: 375px) {
+      display: flex;
+      width: 95%;
+      height: 242px;
+      position: absolute;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 1902px;
+  }
+}

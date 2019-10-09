@@ -1,0 +1,26 @@
+body {
+  background-color:gray;
+}
+.wrapper {
+ display: block;
+ width: 90.98%;
+ height: 10150px;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: aqua;
+ @media (max-width: 375px) { 
+    display: block;
+    width: 104.75%;
+    height: 8850px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+ }
+ }
+
+.img {
+ display: block;
+ width: 25%;
+ height: 200px;
+ margin: 0 auto;
+}

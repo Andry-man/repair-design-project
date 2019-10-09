@@ -1,0 +1,96 @@
+.second-block {
+  display: flex;
+  width: 100%;
+  height: 1027px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(101, 253, 167);
+  text-align: center;
+  @media (max-width: 375px) {
+      display: none;
+  }
+}
+
+.second-block_navbar {
+  width: 51%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    height: 4%;
+    margin-left: 33%;
+    @media (max-width: 840px) {
+        display: none;
+    }
+}
+
+.second-block_navbar_Rostov-on-Don {
+  width: 200px;
+    height: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+}
+.second-block_navbar_Sochi{
+  width: 200px;
+    height: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+}
+.second-block_navbar_Rostov-on-Don_patriotic{
+  width: 210px;
+    height: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+}
+.second_block_img {
+  position: absolute;
+  width: 42.9%;
+  height: 482.38px;
+  margin-left: 33.5%;
+  margin-top: 10%;
+  @media (max-width: 375px) {
+    display:none;
+  }
+}
+
+.second_block_img_1 {
+  position: absolute;
+  width: 42.9%;
+  height: 482.38px;
+  margin-left: 33.5%;
+  margin-top: 10%;
+  display: none;
+  @media (max-width: 375px) {
+      display: block;
+      position: absolute;
+      width: 95%;
+      height: 241px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+
+.second_block_img_2 {
+  position: absolute;
+  height: 483px;
+  width: 9.16%;
+  margin-left: 81.82%;
+  margin-top: 10%;
+  @media (max-width: 840px) {
+      display: none;
+  }
+}
+
+.video-block {
+  position: absolute;
+  width: 51.62%;
+  height: 434px;
+  margin-left: 20%;
+  margin-top: 802px;
+  @media (max-width: 375px) {
+    display: none
+  }
+}
