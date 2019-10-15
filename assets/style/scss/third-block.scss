@@ -4,12 +4,47 @@
   height: 862px;
   margin-left: auto;
   margin-right: auto;
-  background-color:rgb(158, 190, 172);
+  background-color:rgb(255, 255, 255);
   @media (max-width: 375px) {
       display: none;
   }
 }
-
+.third-block_mine-element {
+  position: relative;
+  width: 55px;
+  height: 1.54px;
+  top: 264px;
+  left: 52%;
+}
+.third-block_mine-text {
+  position: absolute;
+    display: flex;
+    left: 27.36%;
+    height: 10px;
+    right: 29.29%;
+    width: 59.746%;
+    top: 2272px;
+    bottom: 70.33%;
+    font-family: "FuturaBookC";
+    font-size: 1.5vw;
+    line-height: 31px;
+    text-align: center;
+    color: #363636;
+    @media (max-width: 880px) {
+        position: absolute;
+        display: flex;
+        left: 22.36%;
+        right: 29.29%;
+        width: 59.746%;
+        top: 2272px;
+        bottom: 70.33%;
+        font-family: "FuturaBookC";
+        font-size: 15px;
+        line-height: 31px;
+        text-align: center;
+        color: #363636;
+ }
+}
 .third-block_form {
   display: flex;
   width: 43%;
@@ -23,4 +58,171 @@
       margin-left: 32%;
       margin-top: 554px;
     }
+    @media (max-width: 670px) {
+        display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 37%;
+      height: 98px;
+      margin-left: 23%;
+      margin-top: 647px; } 
+}
+.third-form_name {
+  width: 42px;
+  position: relative;
+  height: 20px;
+  font-family: FuturaBookC;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(54, 54, 54, 0.5);
+  margin-right: -42px;
+  margin-top: -20px;
+  left: -126px;
+  @media (max-width: 570px) {
+      width: 42px;
+      position: relative;
+      height: 20px;
+      font-family: FuturaBookC;
+      font-size: 0px;
+      line-height: 20px;
+      color: rgba(54, 54, 54, 0.5);
+      margin-right: -42px;
+      margin-top: 77px;
+      left: -126px;    }
+} 
+.third-form_phone {
+  width: 42px;
+  height: 20px;
+  font-family: FuturaBookC;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(54, 54, 54, 0.5);
+  margin-right: -42px;
+  margin-top: -20px;
+  @media (max-width: 570px) {
+      width: 42px;
+      height: 20px;
+      font-family: FuturaBookC;
+      font-size: 0px;
+      line-height: 20px;
+      color: rgba(54, 54, 54, 0.5);
+      margin-right: -300px;
+      margin-top: -20px;
+        }
+}
+.input_name {
+  position: relative;
+  width: 231px;
+  height: 32px;
+  border-width: 0px 0px 2px 0px;
+  margin-right: 58px;
+  margin-left: -126px;
+  @media (max-width: 570px) {
+      position: relative;
+      width: 231px;
+      height: 32px;
+      border-width: 0px 0px 2px 0px;
+      margin-right: 58px;
+      margin-left: -126px;
+      top: 95px;
+       }
+}
+.input_phone {
+  margin-right: 27px;
+  width: 231px;
+  height: 32px;
+  border-width: 0px 0px 2px 0px;
+}
+.third-block-submit {
+  width: 32%;
+    height: 51px;
+    border-radius: 2px;
+    border-width: 0;
+    background-color: #E3B873;
+    font-family: "FuturaDemiC";
+font-size: 15px;
+line-height: 26px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+box-shadow: -7px 11px 50px -23px #000000;
+}
+.third-block-chekbox {
+  width: 5%;
+  height: 19%;
+  position: relative;
+  top: 85px;
+  left: -91%;
+}
+.textChekbox {
+  position: absolute;
+  top: 2588px;
+  width: 275px;
+  font-family: FuturaBookC;
+  font-size: 16px;
+  line-height: 22px;
+  color: #181818;
+  left: 41%;
+  margin-left: 1%;
+  @media (max-width: 932px) {
+    display: none;
+        }
+}
+.third-block_types {
+  margin-top: 758px;
+    width: 91%;
+    margin-left: 0%;
+    height: 64px;
+    position: absolute;
+    @media (max-width: 570px) {
+        margin-top: 790px;
+        width: 91%;
+        margin-left: 0%;
+        height: 64px;
+        position: absolute;
+        }
+}
+
+.third-block_types-elements {
+  display: flex;
+  width: 114px;
+  height: 28px;
+  margin-top: 2%;
+  margin-right: 0;
+  margin-left: 46.9%;
+  @media (max-width: 1000px) {
+      display: flex;
+      width: 114px;
+      height: 28px;
+      margin-top: 2%;
+      margin-right: 0;
+      margin-left: 42.9%;
+  }
+  @media (max-width: 620px) {
+      display: flex;
+      width: 114px;
+      height: 28px;
+      margin-top: 4%;
+      margin-right: 0;
+      margin-left: 36.9%; 
+  }
+  @media (max-width: 570px) {
+      display: flex;
+      width: 114px;
+      height: 28px;
+      margin-top: 1%;
+      margin-right: 0;
+      margin-left: 36.9%; 
+  }
+}
+.third-block_types-text {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1vw;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0px;
+  color: #181818;
 }

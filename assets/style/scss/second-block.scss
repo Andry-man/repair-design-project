@@ -4,7 +4,7 @@
   height: 1027px;
   margin-left: auto;
   margin-right: auto;
-  background-color:rgb(101, 253, 167);
+  background-color:#131313;
   text-align: center;
   @media (max-width: 375px) {
       display: none;
@@ -44,12 +44,266 @@
     align-self: center;
     justify-content: space-evenly;
 }
+.second-block_navbar_element {
+  position: absolute;
+  width: 12.252%;
+  height: 0.2%;
+  margin-top: 2%;
+  left: 35.2%;
+  background-color: #E3B873;
+  @media (max-width: 1350px) {
+      display: none;  }
+}
+.second-block_main_text {
+  width: 27.922%;
+  height: 433px;
+  display: flex;
+  margin-top: 10%;
+  position: absolute;
+  margin-left: 40px;
+  @media (max-width: 940px) {
+      display:none;
+}
+}
+.second-block_first_text {
+  position: absolute;
+  width: 28%;
+    left: 1px;
+    right: 75.38%;
+    top: 2%;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.second-block_first-element_text {
+  width: 21%;
+  height: 1px;
+  position: absolute;
+  left: 36.22%;
+  right: 75.38%;
+  top: 15.03%;
+  bottom: 89.96%;
+  background: #E3B873;
+  @media (max-width: 1300px) {
+      width: 21%;
+      height: 1px;
+      position: absolute;
+      left: 50.22%;
+      right: 75.38%;
+      top: 15.03%;
+      bottom: 89.96%;
+      background: #E3B873;
+}
+@media (max-width: 1000px) {
+    display:none;
+}
+}
+.second-block_second_text {
+  position: absolute;
+    width: 111%;
+    height: 121px;
+    left: 0px;
+    right: 62.24%;
+    top: 22%;
+    bottom: 88.65%;
+    font-family: "FuturaBookC";
+    font-size: 1.3vw;
+    line-height: 29px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.second-block_third_text {
+  position: absolute;
+  width: 11%;
+  left: 0px;
+  height: 6%;
+  right: 88.39%;
+  top: 56%;
+  bottom: 88.02%;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3vw;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.second-block_fourth_text {
+  position: absolute;
+  width: 48.2%;
+  height: 6%;
+    left: 174px;
+    right: 88.39%;
+    top: 56%;
+    bottom: 88.02%;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3vw;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.second-block_fifth_text {
+  position: absolute;
+  left: 0px;
+  width: 26%;
+  height: 10%;
+  right: 81.78%;
+  top: 66%;
+  bottom: 87.51%;
+  text-align: left;
+  font-family: "FuturaBookC";
+  font-size: 1.1vw;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.second-block_six_text {
+  position: absolute;
+    left: 196px;
+    width: 26%;
+    height: 5%;
+    right: 81.78%;
+    top: 66%;
+    bottom: 87.51%;
+    text-align: left;
+    font-family: "FuturaBookC";
+    font-size: 1.1vw;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.second-block_seven_text {
+  position: absolute;
+  left: 0px;
+  right: 82.13%;
+  width: 29%;
+  height: 6%;
+  top:  82%;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  font-size: 1.3vw;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.second-block_eighth_text {
+  position: absolute;
+    left: 193px;
+    right: 82.13%;
+    width: 29%;
+    height: 6%;
+    top:  82%;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    font-size: 1.3vw;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.second-block_ninth_text {
+  position: absolute;
+  left: 0px;
+  width: 15%;
+  height: 5%;
+  right: 85.81%;
+  top: 93%;
+  bottom: 86.64%;
+  font-family: "FuturaBookC";
+  font-size: 1.1vw;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.second-block_then_text {
+  position: absolute;
+  left: 193px;
+  width: 18%;
+  height: 5%;
+  right: 85.81%;
+  top: 93%;
+  bottom: 86.64%;
+  font-family: "FuturaBookC";
+  font-size: 1.1vw;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.second-block_arrows {
+  position: relative;
+  top: 60%;
+  width: 27.9%;
+  right: 73.1%;
+  height: 73.38px;
+}
+.arrows_left {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 85.59%;
+}
+.arrows_left-hover {
+  display:block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 85.59%;
+  opacity: 0;
+  &:hover {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 85.59%;
+    opacity: 10;
+  }
+}
+.arrows_element {
+  position: absolute;
+  left: 70px;
+  right: 83.54%;
+  top: 3.16%;
+  bottom: 85.74%;
+}
+.arrows_right{
+  position: absolute;
+  left: 164px;
+  right: 0;
+  top: 0;
+  bottom: 85.59%;
+}
+.arrows_right-hover {
+  position: absolute;
+  left: 164px;
+  right: 0;
+  top: 0;
+  bottom: 85.59%;
+  opacity: 0;
+  &:hover {
+    position: absolute;
+    left: 164px;
+    right: 0;
+    top: 0;
+    bottom: 85.59%;
+    opacity: 10;
+  }
+}
+
 .second_block_img {
   position: absolute;
-  width: 42.9%;
-  height: 482.38px;
-  margin-left: 33.5%;
-  margin-top: 10%;
+    width: 42.9%;
+    height: 482.38px;
+    margin-left: 36.52%;
+    margin-top: 10%;
   @media (max-width: 375px) {
     display:none;
   }
@@ -86,11 +340,93 @@
 
 .video-block {
   position: absolute;
-  width: 51.62%;
+  width: 60.89%;
   height: 434px;
-  margin-left: 20%;
+  margin-left: 17%;
   margin-top: 802px;
+  -webkit-box-shadow: -7px 11px 50px -23px #000000; 
+  box-shadow: -7px 11px 50px -23px #000000;
   @media (max-width: 375px) {
     display: none
   }
+}
+.second-block_online-control {
+  position: absolute;
+    width: 12.382%;
+    top: 1600px;
+    left: 43%;
+    height: 13%;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    @media (max-width: 1300px) {
+        display: none; }
+}
+.second_block_rectangle-one {
+  position: absolute;
+  left: 22%;
+  top: 74%;
+}
+.second_block_rectangle-two {
+  position: absolute;
+  left: 65%;
+  top: 74%;
+}
+.second_block_rectangle-tree {
+  position: absolute;
+    left: 44%;
+    top: 51%;
+}
+
+
+.second-_button_1 {
+  position: absolute;
+    left: 89%;
+    top: 1273px;
+@media (max-width: 1200px) {
+    position: absolute;
+    left: 88%;
+    top: 1233px;
+ }
+ @media (max-width: 1000px) {
+    position: absolute;
+    left: 87%;
+    top: 1214px;
+ }
+}
+.second-_button_1hover {
+  position: absolute;
+  left: 89%;
+  top: 1273px;
+    opacity: 0;
+    @media (max-width: 1200px) {
+        position: absolute;
+        left: 88%;
+        top: 1233px;
+ }
+ @media (max-width: 1000px) {
+    position: absolute;
+    left: 87%;
+    top: 1214px;
+ }
+ &:hover {
+  position: absolute;
+  left: 89%;
+  top: 1273px;
+    opacity: 10;
+    @media (max-width: 1200px) {
+        position: absolute;
+        left: 88%;
+        top: 1233px;
+}
+@media (max-width: 1000px) {
+    position: absolute;
+    left: 87%;
+    top: 1214px; }
+}
 }
