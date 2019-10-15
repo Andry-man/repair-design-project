@@ -3390,10 +3390,124 @@ color: #FFFFFF;
   height: 1017px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #855151; }
+  background-color: #ffffff; }
   @media (max-width: 375px) {
     .six-block {
       display: none; } }
+
+.six-block_bg {
+  position: absolute;
+  width: 91%;
+  height: 864px;
+  opacity: 1;
+  margin-top: 103px;
+}
+.six-block_bg-black {
+  position: absolute;
+  width: 91%;
+  height: 864px;
+  opacity: 0.5;
+  background-color: black;
+  margin-top: 103px;
+}
+.six-block_realize-fant {
+  width: 19%;
+  height: 629px;
+    margin-left: 99px;
+    margin-top: 225px;
+    position: absolute;
+    z-index: 1;
+}
+.we_realize {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3vw;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #E3B873;
+  z-index: 3;
+}
+
+.american_classic {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+  line-height: 34px;
+  color: #E3B873;
+  margin-top: 54px;
+  text-decoration: underline ;
+}
+.empire {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+line-height: 34px;
+color: #FFFFFF;
+margin-top: 23px;
+}
+.classical {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+line-height: 34px;
+color: #FFFFFF;
+margin-top: 23px;
+}
+.loft {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+line-height: 34px;
+color: #FFFFFF;
+margin-top: 23px;
+}
+
+.minimalism {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+line-height: 34px;
+color: #FFFFFF;
+margin-top: 23px;
+}
+.provence {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+line-height: 34px;
+color: #FFFFFF;
+margin-top: 23px;
+}
+.romanticism {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+line-height: 34px;
+color: #FFFFFF;
+margin-top: 23px;
+}
+.scandinavian_style {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+line-height: 34px;
+color: #FFFFFF;
+margin-top: 23px;
+}
+.mediterranean_style {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+line-height: 34px;
+color: #FFFFFF;
+margin-top: 23px;
+}
+.high_tech {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+line-height: 34px;
+color: #FFFFFF;
+margin-top: 23px;
+}
+.eclecticism {
+  font-family: "Proxima Nova";
+  font-size: 1vw;
+line-height: 34px;
+color: #FFFFFF;
+margin-top: 23px;
+}
 
 .six-block-img {
   display: -webkit-box;
@@ -3416,6 +3530,7 @@ color: #FFFFFF;
   display: flex;
   width: 39.65%;
   height: 54.77%;
+  z-index: 1;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
