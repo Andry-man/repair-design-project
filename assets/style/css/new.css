@@ -3596,6 +3596,21 @@ margin-top: 23px;
   margin-left: auto;
   margin-right: 100px; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .seven-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3615,6 +3630,45 @@ margin-top: 23px;
       margin-left: auto;
       margin-right: auto;
       background-color: white; } }
+
+      
+      .seven-block_design-project {
+        width: 763px;
+        height: 137px;
+        position: absolute;
+        margin-left: 359px;
+        margin-top: 128px;
+      }
+.project_logo {
+  margin-left: 303px;
+    margin-top: 30px;
+    position: absolute;
+}
+.design-text {
+  font-family: "Yeseva One";
+  font-style: normal;
+  position: absolute;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+  margin-top: 0px;
+  margin-left: 293px;
+}
+.design-project_text {
+  font-family: "FuturaBookC";
+  font-size: 1.4vw;
+  line-height: 27px;
+  text-align: center;
+  color: #363636;
+  margin-top: 85px;
+}
+
+
+
+
 
 .seven-block-img {
   width: 100%;
@@ -3755,6 +3809,18 @@ margin-top: 23px;
       margin-right: auto;
       position: absolute; } }
 
+.seven-price_1 {
+  position: absolute;
+    display: flex;
+    width: 228px;
+    height: 54px;
+    background: #E3B873;
+    margin-top: 180px;
+    -webkit-box-shadow: 10px 10px 19px -15px rgba(227,184,115,1);
+    -moz-box-shadow: 10px 10px 19px -15px rgba(227,184,115,1);
+    box-shadow: 10px 10px 19px -15px rgba(227,184,115,1);
+}
+
 .seven-two {
   display: none; }
   @media (max-width: 375px) {
@@ -3773,6 +3839,18 @@ margin-top: 23px;
       margin-left: 18px;
       margin-right: auto;
       position: absolute; } }
+      
+      .seven-price_2 {
+        position: absolute;
+          display: flex;
+          width: 228px;
+          height: 54px;
+          background: #E3B873;
+          margin-top: 180px;
+          -webkit-box-shadow: 10px 10px 19px -15px rgba(227,184,115,1);
+          -moz-box-shadow: 10px 10px 19px -15px rgba(227,184,115,1);
+          box-shadow: 10px 10px 19px -15px rgba(227,184,115,1);
+      }
 
 .seven-three {
   display: none; }
