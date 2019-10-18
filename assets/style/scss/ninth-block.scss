@@ -4,12 +4,71 @@
   height: 1524px;
   margin-left: auto;
   margin-right: auto;
-  background-color:rgb(190, 190, 190);
+  background-color:white;
   @media (max-width: 375px) {
       display: none;
   }
 }
 
+.worker-list {
+  position: absolute;
+  font-family: "futuraBookC";
+  font-size: 1.4vw;
+  line-height: 34px;
+  text-align: center;
+  color: #363636;
+  margin-left: 26%;
+  margin-top: 305px;
+}
+.worker-list_element {
+  position: absolute;
+  margin-left: 40%;
+  margin-top: -23px;
+}
+
+.our-clients_list {
+  position: absolute;
+  width: 22.4%;
+  height: 187px;
+  margin-left: 28%;
+}
+
+.clients_list_1 {
+  position: absolute;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  margin-left: 27%;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+.our-clients_logo {
+  position: absolute;
+  margin-left: 36%;
+  margin-top: 47px;
+  @media (max-width: 914px) {
+      position: absolute;
+      margin-left: 20%;
+      margin-top: 47px;
+     }
+}
+
+.clients_list_2 {
+  position: absolute;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  margin-left: -6%;
+  line-height: 28px;
+  width: 108%;
+  margin-top: 99px;
+  text-align: center;
+  color: #181818;
+}
 .old-people_colum {
   display: flex;
     width: 85.891%;
@@ -17,7 +76,6 @@
     margin-left: auto;
     margin-top: auto;
     margin-right: auto;
-    background-color: yellow;
     flex-flow: row nowrap;
     margin-bottom: 24.6%;
     @media (max-width: 840px) {
@@ -28,29 +86,273 @@
 .old_maria {
   width: 30.4%;
   height: 66.7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
-  background-color: antiquewhite;
+  background-color:#FFFFFF;
   margin-bottom: 27px;
-  margin-top: auto;
+  -webkit-box-shadow: -1px 3px 27px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 27px -13px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 27px -13px rgba(0,0,0,0.75);
+  margin-top: auto; }
+
+  .old_maria-sale {
+    position: absolute;
+    width: 293px;
+    height: 54px;
+    margin-top: 398px;
+    background-color: #E3B873;
+    -webkit-box-shadow: -1px 3px 25px -13px rgba(227,184,115,1);
+    -moz-box-shadow: -1px 3px 25px -13px rgba(227,184,115,1);
+    box-shadow: -1px 3px 25px -13px rgba(227,184,115,1);
+  }
+  .sale_logo-1 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 2%;
+  }
+  .sale-list_1 {
+    position: absolute;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    margin-left: 19%;
+    margin-top: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+.sale_vector-1 {
+  position: absolute;
+  margin-left: 45%;
+}
+.sale_img-1 {
+  position: absolute;
+  margin-left: 49%;
+  margin-top: 7px;
+}
+.sale-list1_1 {
+  position: absolute;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  margin-left: 64%;
+  margin-top: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.img_maria {
+  position: absolute;
+    margin-left: 1.5%;
+    margin-top: 24px;
+}
+.old_maria-name {
+  font-family: "Yeseva One";
+  font-style: normal;
+  margin-left: 7.5%;
+  margin-top: 37px;
+  font-weight: normal;
+  position: absolute;
+  font-size: 1.2vw;
+  line-height: 23px;
+  color: #181818;
+}
+.old_maria-text {
+  font-family: "FuturaBookC";
+  position: absolute;
+  margin-top: 108px;
+  font-size: 1vw;
+  line-height: 180%;
+  color: #959595;
+  margin-left: 20px;
 }
 .old_sergey {
-  width:30.4%;
-  height: 66.7%;
-  display: flex;
-  flex-flow: row nowrap;
-  background-color: antiquewhite;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 27px;
-  margin-top: auto;
-}
-.old_egor {
   width: 30.4%;
   height: 66.7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
-  background-color: antiquewhite;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: -1px 3px 27px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 27px -13px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 27px -13px rgba(0,0,0,0.75);
   margin-bottom: 27px;
-  margin-top: auto;
-}
+  margin-top: auto; }
+
+  .old_sergey-sale {
+    position: absolute;
+    width: 293px;
+    height: 54px;
+    margin-top: 398px;
+    background-color: #E3B873;
+    -webkit-box-shadow: -1px 3px 25px -13px rgba(227,184,115,1);
+    -moz-box-shadow: -1px 3px 25px -13px rgba(227,184,115,1);
+    box-shadow: -1px 3px 25px -13px rgba(227,184,115,1);
+  }
+  
+  .sale_logo-2 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 2%;
+  }
+  .sale-list_2 {
+    position: absolute;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    margin-left: 19%;
+    margin-top: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .sale_vector-2 {
+    position: absolute;
+    margin-left: 45%;
+  }
+  .sale_img-2 {
+    position: absolute;
+    margin-left: 49%;
+    margin-top: 7px;
+  }
+  .sale-list1_2 {
+    position: absolute;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    margin-left: 64%;
+    margin-top: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .img_sergey {
+    position: absolute;
+      margin-left: 1.5%;
+      margin-top: 24px;
+  }
+  .old_sergey-name {
+    font-family: "Yeseva One";
+    font-style: normal;
+    margin-left: 7.5%;
+    margin-top: 37px;
+    font-weight: normal;
+    position: absolute;
+    font-size: 1.2vw;
+    line-height: 23px;
+    color: #181818;
+  }
+  .old_sergey-text {
+    font-family: "FuturaBookC";
+    position: absolute;
+    margin-top: 108px;
+    font-size: 1vw;
+    line-height: 180%;
+    color: #959595;
+    margin-left: 20px;
+  }
+  .old_egor {
+    width: 30.4%;
+    height: 66.7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: -1px 3px 27px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 3px 27px -13px rgba(0,0,0,0.75);
+  box-shadow: -1px 3px 27px -13px rgba(0,0,0,0.75);
+    margin-bottom: 27px;
+    margin-top: auto; }
+  
+    .old_egor-sale {
+      position: absolute;
+      width: 293px;
+      height: 54px;
+      margin-top: 398px;
+      background-color: #E3B873;
+      -webkit-box-shadow: -1px 3px 25px -13px rgba(227,184,115,1);
+      -moz-box-shadow: -1px 3px 25px -13px rgba(227,184,115,1);
+      box-shadow: -1px 3px 25px -13px rgba(227,184,115,1);
+    }
+    .sale_logo-3 {
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 2%;
+    }
+    .sale-list_3 {
+      position: absolute;
+      font-family: "Yeseva One";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.2vw;
+      margin-left: 19%;
+      margin-top: 14px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+    .sale_vector-3 {
+      position: absolute;
+      margin-left: 45%;
+    }
+    .sale_img-3 {
+      position: absolute;
+      margin-left: 49%;
+      margin-top: 7px;
+    }
+    .sale-list1_3 {
+      position: absolute;
+      font-family: "Yeseva One";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.2vw;
+      margin-left: 64%;
+      margin-top: 14px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+    .img_egor {
+      position: absolute;
+        margin-left: 1.5%;
+        margin-top: 24px;
+    }
+    .old_egor-name {
+      font-family: "Yeseva One";
+      font-style: normal;
+      margin-left: 7.5%;
+      margin-top: 37px;
+      font-weight: normal;
+      position: absolute;
+      font-size: 1.2vw;
+      line-height: 23px;
+      color: #181818;
+    }
+    .old_egor-text {
+      font-family: "FuturaBookC";
+      position: absolute;
+      margin-top: 108px;
+      font-size: 1vw;
+      line-height: 180%;
+      color: #959595;
+      margin-left: 20px;
+    }

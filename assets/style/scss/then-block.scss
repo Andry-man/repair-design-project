@@ -11,17 +11,27 @@
       height: 874px;
       margin-left: auto;
       margin-right: auto;
-      background-color: rgb(83, 83, 83);
+      background-color: black;
       top: 71px;
       position: relative;
   }
 }
+.then-block_bg {
+  position: relative;
+  width: 100%;
+  @media (max-width: 375px) {
+      display: none;;
+      position: relative;
+      width: 100%;
+    } 
+}
+
 
   .then-form {
     width: 55.781%;
     height: 445px;
     display: flex;
-    background-color: antiquewhite;
+    background-color:#181818;;
     margin-left: 17.6%;
     margin-right: 17.6%;
     top: 8917px;
@@ -30,31 +40,385 @@
         width: 90.67%;
         height: 467px;
         display: flex;
-        background-color: antiquewhite;
+        background-color: #181818;;
         margin-left: 18px;
         margin-right: auto;
         top: 78px;
         position: absolute;
-
     }
+  }
+
+  .then-form_questions {
+    font-family: "Yeseva One";
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    margin-top: 32px;
+    margin-left: 38%;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    @media (max-width: 630px) {
+        font-family: "Yeseva One";
+        position: absolute;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2vw;
+        margin-top: 32px;
+        margin-left: 25%;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+      @media (max-width: 375px) {
+          font-family: "Yeseva One";
+          position: absolute;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 5vw;
+          margin-top: 32px;
+          margin-left: 21%;
+          line-height: 28px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #FFFFFF;
+        }
+  }
+
+ 
+  .then-block_form_ {
+    position: absolute;
+    width: 59%;
+    height: 304px;
+    margin-left: 21%;
+    margin-top: 106px;
+    @media (max-width: 375px) {
+        position: absolute;
+        width: 96%;
+        height: 304px;
+        margin-left: 3%;
+        margin-top: 76px;
+      }
+  }
+
+  .then-block_name {
+    width: 7%;
+    position: absolute;
+    height: 20px;
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    @media (max-width: 375px) {
+        width: 7%;
+        position: absolute;
+        height: 20px;
+        font-family: "FuturaBookC";
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+  }
+
+  .then-block-input_name {
+    position: absolute;
+    width: 42.774%;
+    background-color: #181818;
+    color: white;
+    height: 32px;
+    margin-top: 17px;
+    border-width: 0px 0px 1px 0px;
+    @media (max-width: 375px) {
+        position: absolute;
+        width: 95.774%;
+        background-color: #181818;
+        color: white;
+        margin-left: 0%;
+        height: 32px;
+        margin-top: 17px;
+        border-width: 0px 0px 1px 0px;
+      }
+  }
+
+  .then-block_phone {
+    width: 42px;
+    position: absolute;
+    margin-left: 53%;
+    height: 20px;
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    @media (max-width: 375px) {
+        width: 42px;
+        position: absolute;
+        margin-top: 86px;
+        margin-left: 0%;
+        height: 20px;
+        font-family: "FuturaBookC";
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+  }
+
+  .then-block-input_phone {
+    position: absolute;
+    width: 42.774%;
+    background-color: #181818;
+    color: white;
+    height: 32px;
+    margin-left: 53%;
+    margin-top: 17px;
+    border-width: 0px 0px 1px 0px;
+    @media (max-width: 375px) {
+        position: absolute;
+        width: 95.774%;
+        background-color: #181818;
+        color: white;
+        height: 32px;
+        margin-left: 0%;
+        margin-top: 102px;
+        border-width: 0px 0px 1px 0px;
+      }
+  }
+
+  .then-block_question {
+    width: 42px;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 92px;
+    height: 20px;
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    @media (max-width: 375px) {
+        width: 42px;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 165px;
+        height: 20px;
+        font-family: "FuturaBookC";
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+  }
+
+  .then-block-input_question {
+    position: absolute;
+      width: 95.774%;
+      background-color: #181818;
+      color: white;
+      height: 32px;
+      margin-left: 0px;
+      margin-top: 108px;
+      border-width: 0px 0px 1px 0px;
+      @media (max-width: 375px) {
+          position: absolute;
+          width: 95.774%;
+          background-color: #181818;
+          color: white;
+          height: 32px;
+          margin-left: 0px;
+          margin-top: 184px;
+          border-width: 0px 0px 1px 0px;
+        }
+  }
+
+  .then-block-submit {
+    width: 39%;
+    position: absolute;
+    height: 51px;
+    margin-top: 238px;
+    margin-left: 142px;
+    border-radius: 2px;
+    border-width: 0;
+    background-color: #E3B873;
+    font-family: "FuturaDemiC";
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    -webkit-box-shadow: 0px 9px 261px -38px rgba(227,184,115,0.5);
+    -moz-box-shadow: 0px 9px 261px -38px rgba(227,184,115,0.5);
+    box-shadow: 0px 9px 261px -38px rgba(227,184,115,0.5);
+    @media (max-width: 375px) {
+        width: 98%;
+        position: absolute;
+        height: 51px;
+        margin-top: 359px;
+        margin-left: 0px;
+        border-radius: 2px;
+        border-width: 0;
+        background-color: #E3B873;
+        font-family: "FuturaDemiC";
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        -webkit-box-shadow: 0px 9px 261px -38px rgba(227,184,115,0.5);
+        -moz-box-shadow: 0px 9px 261px -38px rgba(227,184,115,0.5);
+        box-shadow: 0px 9px 261px -38px rgba(227,184,115,0.5);
+      }
+  }
+
+  .then-block-chekbox {
+    width: 4%;
+    height: 16%;
+    position: absolute;
+    top: 158px;
+    left: 97px;
+    @media (max-width: 970px) {
+      width: 4%;
+      height: 16%;
+      position: absolute;
+      top: 158px;
+      left: 26px;
+      } 
+      @media (max-width: 375px) {
+          width: 4%;
+          height: 16%;
+          position: absolute;
+          top: 220px;
+          left: 0px;
+        } 
+  }
+
+
+  .then-block-textChekbox {
+    position: absolute;
+    width: 275px;
+    font-family: "FuturaBookC";
+    font-size: 1vw;
+    line-height: 22px;
+    margin-top: 173px;
+    color: #FFFFFF;
+    margin-left: 25%;
+    @media (max-width: 970px) {
+        position: absolute;
+        width: 275px;
+        font-family: "FuturaBookC";
+        font-size: 1vw;
+        line-height: 22px;
+        margin-top: 173px;
+        color: #FFFFFF;
+        margin-left: 25%;
+      }
+      @media (max-width: 375px) {
+          position: absolute;
+          width: 275px;
+          font-family: "FuturaBookC";
+          font-size: 4.5vw;
+          line-height: 22px;
+          margin-top: 236px;
+          color: #FFFFFF;
+          margin-left: 8%;
+        } 
+  }
+
+    .then-block_contact {
+      position: absolute;
+      width: 49%;
+      height: 106px;
+      margin-top: 272px;
+      margin-left: 24%;
+      @media (max-width: 375px) {
+          position: absolute;
+          width: 86%;
+          height: 106px;
+          margin-top: 806px;
+          margin-left: 7%;
+        }
+    }
+  
+
+  .contact_list {
+    font-family: "Yeseva One";
+    position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E3B873;
+  @media (max-width: 375px) {
+      font-family: "Yeseva One";
+      position: absolute;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5.0vw;
+      line-height: 28px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #E3B873;
+    }
+  }
+  .contact_img {
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 94px;
+    @media (max-width: 375px) {
+        position: absolute;
+        margin-left: 40%;
+        margin-top: 113px;
+      }
   }
 
   .then-map {
     width: 58.434%;
     height: 465px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    background-color: red;
     margin-left: 16.3%;
     margin-right: 16.3%;
     top: 9530px;
-    position: absolute;
+    position: absolute; 
     @media (max-width: 375px) {
         width: 90.67%;
         height: 255px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        background-color: red;
         margin-left: 18px;
         top: 619px;
-        position: absolute;
-    }
+        position: absolute; } 
   }
+        .map {
+          position: absolute;
+          width: 100%;
+        }
+        .contact_list_number {
+          font-family: "Yeseva One";
+          position: absolute;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 1.5vw;
+          line-height: 28px;
+          left: 33%;
+          text-align: center;
+          text-transform: uppercase;
+          color: #E3B873;
+          @media (max-width: 375px) {
+              font-family: "Yeseva One";
+              position: absolute;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 4.5vw;
+              line-height: 28px;
+              left: 27%;
+              text-align: center;
+              text-transform: uppercase;
+              color: #E3B873;
+            } 
+        }
+      
+    

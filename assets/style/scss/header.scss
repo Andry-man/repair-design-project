@@ -18,6 +18,17 @@
     height: 18px;
     width: 221px;
     top: 38px;
+    &:hover {
+      font-family: "FuturaDemiC";
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 16px;
+      text-transform: uppercase;
+      position: relative;
+      color: red;
+      height: 18px;
+      width: 221px;
+      top: 38px; }
     @media (max-width: 375px) {
       font-family: "FuturaDemiC";
       text-transform: uppercase;
@@ -29,7 +40,8 @@
       height: 18px;
       width: 221px;
       top: 34px;
-      right: 17px;  }
+      right: 17px; 
+   }
  }
  .navbar_heder {
   width: 100%;
@@ -47,6 +59,20 @@
   display: flex;
   align-self: center;
   justify-content: space-evenly;
+  &:hover {
+    font-family: "FuturaBookC";
+    text-transform: uppercase;
+    color: red;
+    width: 120px;
+    height: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
   @media (max-width: 840px) {
       display: none;
   }
@@ -64,6 +90,20 @@
   @media (max-width: 840px) {
       display: none;
   }
+  &:hover {
+    font-family: "FuturaBookC";
+    color: red;
+    text-transform: uppercase;
+    width: 120px;
+    height: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
 }
 
 .navbar_heder_measurement{
@@ -78,6 +118,20 @@
   @media (max-width: 840px) {
       display: none;
   }
+  &:hover {
+    font-family: "FuturaBookC";
+    text-transform: uppercase;
+    color: red;
+    width: 120px;
+    height: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
 }
 
 .navbar_heder_team {
@@ -92,6 +146,20 @@
   @media (max-width: 840px) {
       display: none;
   }
+  &:hover {
+    font-family: "FuturaBookC";
+    text-transform: uppercase;
+    color: red;
+    width: 120px;
+    height: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
 }
 
 .navbar_heder_reviews {
@@ -106,6 +174,20 @@
   @media (max-width: 840px) {
       display: none;
   }
+  &:hover {
+    font-family: "FuturaBookC";
+    color: red;
+    text-transform: uppercase;
+    width: 120px;
+    height: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
 }
 
 .navbar_heder_contacts {
@@ -120,6 +202,20 @@
   @media (max-width: 840px) {
       display: none;
   }
+  &:hover {
+    font-family: "FuturaBookC";
+    text-transform: uppercase;
+    color: red;
+    width: 120px;
+    height: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
 }
 
 .heder_number {
@@ -149,29 +245,71 @@
     text-decoration: none;
     justify-content: space-evenly;
  }
+ &:hover {
+  width: 141px;
+  font-family: "FuturaDemiC";
+  text-transform: uppercase;
+  color: red;
+  height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+ }
 }
 .heder_button {
-  background-color: #E3B873;
-  color: #FFFFFF;
+  width: 161px;
+  height: 37px;
+   border: 0px;
   font-family: "FuturaDemiC";
-  border: 0px;
 font-size: 13px;
 line-height: 15px;
 text-align: center;
 text-transform: uppercase;
-  margin-top: 0px;
-  margin-left: 19%;
+   margin-top: 0px;
+  margin-left: 35px;
   -moz-border-radius:  3px; 
 -webkit-border-radius:  3px; 
   border-radius:  3px; 
-  width: 161px;
-  height: 37px;
+  color: #FFFFFF;
+  background-color: #E3B873;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: 0px 3px 8px 0px #E3B873; 
-box-shadow: 0px 3px 8px 0px #E3B873;
+  -ms-flex-item-align: center;
   align-self: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   @media (max-width: 840px) {
       display: none;
   }
+  &:hover {
+    width: 161px;
+    height: 37px;
+     border: 0px;
+    font-family: "FuturaDemiC";
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+     margin-top: 0px;
+    margin-left: 35px;
+    -moz-border-radius:  3px; 
+  -webkit-border-radius:  3px; 
+    border-radius:  3px; 
+    color: #FFFFFF;
+    background-color:red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
 }

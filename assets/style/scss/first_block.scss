@@ -13,14 +13,12 @@
   text-decoration: none;
   padding: 0;
   @media (max-width: 840px) {
-      height: 0px;
+    display:none;
     }
 }
  div p {
   margin-top: 47%;
-  @media (max-width: 840px) {
-      display:none;
-    }
+  
 }
 .first-block {
 display: flex;
@@ -50,7 +48,15 @@ text-align: center;
     @media (max-width: 840px) {
          display:none;
       }
-       }
+     &:hover {
+        position: absolute;
+        width: 247px;
+        height: 97px;
+        margin-left: 0px;
+        margin-top: 657px;
+        background-color: red;
+      }
+
 }
 
 .first-block_button p {
@@ -117,18 +123,19 @@ text-align: center;
 color: #E3B873;
 }
 .first-block_text_one {
-position: absolute;
-left: 204px;
-width: 584px;
-right: 43.11%;
-top: 397px;
-font-family: "FuturaBookC";
-font-style: normal;
-font-weight: normal;
-font-size: 1.5vw;
-line-height: 30px;
-color: #FFFFFF;
-text-align: left;
+  position: absolute;
+  left: 13%;
+  width: 57%;
+  height: 114px;
+  right: 60.11%;
+  top: 390px;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: start;
 @media (max-width: 375px) {
   position: absolute;
  left: 18px;
@@ -210,6 +217,58 @@ display: none;
       background-color: #E3B873;
       display: block;
       position: absolute;
+      &:hover {
+        width: 161px;
+        height: 37px;
+        border: 0px;
+        margin-top: 448px;
+        margin-left: 133px;
+        margin-right: auto;
+        font-family: "FuturaDemiC";
+        font-size: 13px;
+        text-transform: uppercase;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        color: #FFFFFF;
+        background-color: red;
+        display: block;
+        position: absolute;
+        }
+        @media (max-width: 600px) {
+            width: 161px;
+            height: 37px;
+            border: 0px;
+            margin-top: 505px;
+            margin-left: 64px;
+            margin-right: auto;
+            font-family: "FuturaDemiC";
+            font-size: 13px;
+            text-transform: uppercase;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            color: #FFFFFF;
+            background-color: #E3B873;
+            display: block;
+            position: absolute;  
+              &:hover { 
+              width: 161px;
+              height: 37px;
+              border: 0px;
+              margin-top: 505px;
+              margin-left: 64px;
+              margin-right: auto;
+              font-family: "FuturaDemiC";
+              font-size: 13px;
+              text-transform: uppercase;
+              -moz-border-radius: 3px;
+              -webkit-border-radius: 3px;
+              border-radius: 3px;
+              color: #FFFFFF;
+              background-color: #E3B873;
+              display: block;
+              position: absolute;  } }
       @media (max-width: 375px) {
         width: 95%;
         height: 37px;
@@ -227,8 +286,26 @@ display: none;
         background-color: #E3B873;
         display: block;
         position: absolute;
-     }
+      &:hover {
+        width: 95%;
+        height: 37px;
+        border: 0px;
+        margin-top: 286px;
+        margin-left: 16px;
+        margin-right: auto;
+        font-family: "FuturaDemiC";
+        font-size: 13px;
+        text-transform: uppercase;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        color: #FFFFFF;
+        background-color:red;
+        display: block;
+        position: absolute;
+   }
   }
+}
   .first-block_button_mainOne {
     width: 176px;
         height: 38px;
@@ -249,6 +326,26 @@ display: none;
         border: 1px solid white;
         cursor: pointer;
         overflow: hidden;
+        @media (max-width: 600px) {
+            width: 176px;
+            height: 38px;
+            margin-top: 560px;
+            margin-left: 55px;
+            margin-right: auto;
+            font-family: "FuturaDemiC";
+            font-size: 13px;
+            text-transform: uppercase;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            color: #FFFFFF;
+            display: block;
+            position: absolute;
+            background-color: Transparent;
+            background-repeat: no-repeat;
+            border: 1px solid white;
+            cursor: pointer;
+            overflow: hidden;  }
         @media (max-width: 375px) {
           width: 95%;
           height: 38px;
@@ -441,7 +538,7 @@ box-shadow: -7px 11px 50px -23px #000000;
         width: 36%;
         left: 36%;
         right: 75.38%;
-        top: 75.75%;
+        top: 78.75%;
         font-family: "Yeseva One";
         font-style: normal;
         font-weight: normal;
@@ -473,7 +570,7 @@ box-shadow: -7px 11px 50px -23px #000000;
       height: 86px;
       left: 0px;
       right: 65.24%;
-      top: 88%;
+      top: 92%;
       bottom: 88.65%;
       font-family: "FuturaBookC";
       font-size: 14px;
@@ -580,7 +677,7 @@ box-shadow: -7px 11px 50px -23px #000000;
         left: 4%;
         height: 6%;
         right: 88.39%;
-        top: 139%;
+        top: 144%;
         bottom: 88.02%;
         font-family: "Yeseva One";
         font-style: normal;
@@ -601,7 +698,7 @@ width: 48.2%;
 height: 6%;
 left: 174px;
 right: 88.39%;
-top: 139%;
+top: 144%;
 bottom: 88.02%;
 font-family: "Yeseva One";
 font-style: normal;
@@ -621,7 +718,7 @@ color: #E3B873; }
       width: 26%;
       height: 10%;
       right: 81.78%;
-      top: 143%;
+      top: 148%;
       bottom: 87.51%;
       text-align: left;
       font-family: "FuturaBookC";
@@ -640,7 +737,7 @@ color: #E3B873; }
   width: 26%;
   height: 5%;
   right: 81.78%;
-  top: 143%;
+  top: 148%;
   bottom: 87.51%;
   text-align: left;
   font-family: "FuturaBookC";
@@ -659,7 +756,7 @@ color: #E3B873; }
             right: 82.13%;
             width: 29%;
             height: 6%;
-            top: 150%;
+            top: 155%;
             font-family: "Yeseva One";
             font-style: normal;
             font-weight: normal;
@@ -680,7 +777,7 @@ color: #E3B873; }
           right: 82.13%;
           width: 29%;
           height: 6%;
-          top: 150%;
+          top: 155%;
           font-family: "Yeseva One";
           font-style: normal;
           font-weight: normal;
@@ -700,7 +797,7 @@ color: #E3B873; }
       width: 17%;
       height: 5%;
       right: 85.81%;
-      top: 154%;
+      top: 159%;
       bottom: 86.64%;
       font-family: "FuturaBookC";
       font-size: 14px;
@@ -718,7 +815,7 @@ color: #E3B873; }
           width: 22%;
           height: 5%;
           right: 85.81%;
-          top: 154%;
+          top: 159%;
           bottom: 86.64%;
           font-family: "FuturaBookC";
           font-size: 14px;

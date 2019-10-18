@@ -4,7 +4,7 @@
   height: 1017px;
   margin-left: auto;
   margin-right: auto;
-  background-color:rgb(133, 81, 81);
+  background-color:white;
   @media (max-width: 375px) {
       display: none;
   }
@@ -190,7 +190,9 @@ margin-top: 23px;
   flex-flow: column wrap;
   margin-left: auto;
   margin-right: 100px;
-}
+  @media (max-width: 460px) {
+      display: none; } }
+
 .six-block-image-four {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,4 +211,7 @@ margin-top: 23px;
   top: 37px;
   margin-left: auto;
   margin-right: 100px; 
+  @media (max-width: 460px) {
+      display: none; } 
+
 }
