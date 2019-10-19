@@ -10,3 +10,6 @@
 * Go to your code editor, open style.scss and save him.
 * After that the program converts scss in css.
 * Can open index.html and watch my work.
+
+
+* p.s my work is located in "dev-branch"
